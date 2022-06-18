@@ -21,7 +21,7 @@ public class Hauptklasse {
         int zahl = 12;
         double kommazahl = 1.45;
 
-        String token = "ODIwNzEzMDE4NDc5NzM4ODkw.GnTBf6.3tpZzxjuicArmPHdZK2Q0xKjHXADbbut5VpMBk";
+        String token = System.getev("TOKEN");
 
         JDABuilder bauplan = JDABuilder.createDefault(token);
 
