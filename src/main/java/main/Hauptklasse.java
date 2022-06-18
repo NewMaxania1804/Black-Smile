@@ -31,6 +31,6 @@ public class Hauptklasse {
         bauplan.addEventListeners(new NachrichtenReaktion());
         JDA bot = bauplan.build();
         System.out.println("Shini.exe wurde erfolgreich gestartet!");
-        System.out.println("Der Prefix von SHini.exe ist: "+ prefix);
+        System.out.println("Der Prefix von Shini.exe ist: "+ prefix);
     }
 }
